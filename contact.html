@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Reach Me!</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="row">
+                    <div class="col s12">
+                        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i
+                                class="material-icons">menu</i></a>
+                        <a href="#" class="brand-logo center">orlandocaesar</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a style="font-size:small" href="./index.html">Home</a></li>
+                            <li><a style="font-size:small" href="./project.html">What i have made or learn</a></li>
+                            <li><a class="dark-toggle" href="#"
+                                    onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"
+                                    title="Dark/light"><i class="material-icons">brightness_4</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul id="slide-out" class="sidenav">
+        <li><a class="subheader">Links</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./project.html">What i have made or learn</a></li>
+        <li><a class="dark-toggle" href="#"
+                onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"
+                title="Dark/light"><i class="material-icons left">brightness_4</i> Dark Mode</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m2 l2"></div>
+            <div class="col s12 m8 l8 center">
+                <h4 style="font-weight: 600">Reach Me!</h4>
+                <p style="margin-top:30px">
+                    <ion-icon name="mail-outline" style="vertical-align: middle"></ion-icon>
+                    <a href="mailto:orlando.c.mamudi@gmail.com">orlando.c.mamudi@gmail.com</a>
+                </p>
+                <p>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://id.linkedin.com/in/orlando-mamudi-815a64187">Orlando Mamudi</a>
+                </p>
+                <p>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="https://www.instagram.com/orlandomamudi/">orlandomamudi</a>
+                </p>
+                <p>
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/orlandomamudi">orlandomamudi</a>
+                </p>
+                <div class="divider" style="margin-top:30px"></div>
+                <p style="text-align: center">Made with <ion-icon name="heart" style="vertical-align: middle">
+                    </ion-icon> by
+                    Orlando Caesar Mamudi
+                </p>
+            </div>
+            <div class="col s12 m2 l2"></div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script language="JavaScript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="./assets/custom.js"></script>
+
+</html>

@@ -1,0 +1,164 @@
+body {
+  font-family: 'Poppins';
+  background-color: #eee;
+  transition: color 1s ease, background-color 1s ease;
+}
+
+body.dark {
+  background-color: #202123;
+  color: #fff;
+}
+
+body nav {
+  background-color: #eee;
+  box-shadow: none;
+  transition: color 1s ease, background-color 1s ease;
+}
+
+body nav a {
+  color: #202123;
+  transition: color 1s ease;
+}
+
+body nav a.brand-logo {
+  color: #202123;
+  font-style: italic;
+  font-size: large;
+  transition: color 1s ease;
+}
+
+body p i.material-icons {
+  float: none;
+}
+
+body.dark nav {
+  background-color: #202123;
+}
+
+body.dark nav a {
+  color: #ffffff;
+}
+
+body.dark nav a.brand-logo {
+  color: #ffffff;
+}
+
+body.dark p a {
+  color: #89B2F5;
+}
+
+body.dark li a .material-icons {
+  color: #ffffff;
+}
+
+body.dark .card {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* body.dark .btn {
+  background-color: #EE6F73;
+} */
+
+body.dark .divider {
+  opacity: 0.2;
+}
+
+body.dark .sidenav {
+  background-color: #2D2D31;
+}
+
+body.dark .sidenav li a:not(.subheader) {
+  color: #89B2F5;
+}
+
+body.dark .sidenav li a:not(.subheader):hover {
+  background-color: #3B4043;
+}
+
+body.dark .sidenav li a.subheader {
+  color: #9AA0A6;
+}
+
+body.dark .sidenav li a .material-icons {
+  color: #9AA0A6;
+}
+
+body.dark .collection {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.dark .collection .collection-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.row .card {
+  height: 285px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 12px;
+}
+
+.row .card .card-action {
+  border-radius: 0 0 12px 12px !important;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.row .card .card-content {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.row .card .card-content span {
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+.row .card#pic1 {
+  background-image: url(./project-1.png);
+}
+
+.row .card#pic2 {
+  background-image: url(./project-2.png);
+}
+
+.row .card .overlay {
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(rgba(60, 64, 67, 0.2), rgba(60, 64, 67, 0.2) 60%, black 160%);
+  bottom: 0px;
+  box-sizing: border-box;
+  color: #3c4043;
+  content: "";
+  cursor: pointer;
+  display: block;
+  font-family: "Google Sans", arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  left: 0px;
+  letter-spacing: 0.1000000015px;
+  line-height: 26px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-radius: 12px;
+}
+
+.row .card .btn-flat {
+  color: #fff;
+}
+
+.row .card .btn-flat:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
