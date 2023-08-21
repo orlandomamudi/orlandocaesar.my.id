@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: #eee;
   transition: color 1s ease, background-color 1s ease;
 }
@@ -44,7 +44,7 @@ body.dark nav a.brand-logo {
 }
 
 body.dark p a {
-  color: #89B2F5;
+  color: #89b2f5;
 }
 
 body.dark li a .material-icons {
@@ -64,23 +64,23 @@ body.dark .divider {
 }
 
 body.dark .sidenav {
-  background-color: #2D2D31;
+  background-color: #2d2d31;
 }
 
 body.dark .sidenav li a:not(.subheader) {
-  color: #89B2F5;
+  color: #89b2f5;
 }
 
 body.dark .sidenav li a:not(.subheader):hover {
-  background-color: #3B4043;
+  background-color: #3b4043;
 }
 
 body.dark .sidenav li a.subheader {
-  color: #9AA0A6;
+  color: #9aa0a6;
 }
 
 body.dark .sidenav li a .material-icons {
-  color: #9AA0A6;
+  color: #9aa0a6;
 }
 
 body.dark .collection {
@@ -123,7 +123,6 @@ body.dark .collection .collection-item {
 .row .card .card-content span {
   font-weight: bold;
   font-size: 1.5em;
-
 }
 
 .row .card#pic1 {
@@ -134,9 +133,17 @@ body.dark .collection .collection-item {
   background-image: url(./project-2.png);
 }
 
+.row .card#pic3 {
+  background-image: url(./project-3.png);
+}
+
 .row .card .overlay {
   -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(rgba(60, 64, 67, 0.2), rgba(60, 64, 67, 0.2) 60%, black 160%);
+  background-image: linear-gradient(
+    rgba(60, 64, 67, 0.2),
+    rgba(60, 64, 67, 0.2) 60%,
+    black 160%
+  );
   bottom: 0px;
   box-sizing: border-box;
   color: #3c4043;
